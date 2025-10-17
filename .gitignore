@@ -1,0 +1,57 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+dist/
+build/
+
+# Entornos virtuales
+.venv/
+venv/
+env/
+.conda/
+
+# Variables de entorno y secretos
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+.git-credentials
+
+# Jupyter
+.ipynb_checkpoints/
+.jupyter/
+
+# VS Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Tests / análisis
+.pytest_cache/
+.mypy_cache/
+.coverage
+.coverage.*
+htmlcov/
+.ruff_cache/
+.pytype/
+.pyre/
+
+# Logs
+*.log
+
+# SO (Windows / macOS)
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Opcional: descomenta si quieres evitar subir datos pesados
+# data/
+# data/raw/
+# data/tmp/
+# outputs/
